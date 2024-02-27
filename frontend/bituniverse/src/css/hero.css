@@ -45,3 +45,10 @@ width: 324px;
         letter-spacing: 0em;
         color: white;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #hero{
+        width: 300px;
+    }
+}
