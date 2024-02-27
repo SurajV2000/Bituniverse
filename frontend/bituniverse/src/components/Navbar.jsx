@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/navbar.css";
 import logo from "../assests/logo.png";
+import ConnectButton from "./ConnectButton";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,8 @@ const Navbar = () => {
               <p>Our Products</p>
               <p>Token Utility</p>
               <p>Roadmap</p>
-              <button>Connect Wallet</button>
+              {/* <button>Connect Wallet</button> */}
+              <ConnectButton/>
       </div>
 
       </div>
