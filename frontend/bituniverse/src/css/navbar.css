@@ -1,0 +1,70 @@
+#label{
+    display: flex;
+    gap: 32px;
+}
+#navbar{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px 16px 32px;
+    width: 1360px;
+    height: 45px;
+    border: 1px solid black;
+    position: sticky;
+    top: 40px;
+    left: 40px;
+    border-radius:  16px; 
+    background: #5C4F0570;
+    box-shadow: 0px 2px 19.5px 0px #d6b303a1;
+    z-index: 100;
+    -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+}
+#label>button{
+    width: 187px ;
+    height: 55px ;
+    border-radius: 10px;
+    background-color: #F9D326;
+font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+#label>p{
+font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+#logo{
+    width: 164.8px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 8.51px;
+}
+#logo>div>p:nth-child(1){
+    width: 97px ;
+    height: 12px;
+    font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.16em;
+        text-align: left;
+        color:  #FFC603;;
+}
+#finance{
+    font-family: Inter;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 11px;
+        letter-spacing: 1.17em;
+        text-align: left;
+        color: white;
+}

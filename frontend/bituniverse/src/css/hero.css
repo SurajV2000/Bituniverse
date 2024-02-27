@@ -1,0 +1,47 @@
+#hero{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1042px ;
+    height: 472px;
+     margin-top: 60px;
+}
+#herotext{
+        display: flex;
+        flex-direction: column;
+        width: 1042px;
+                align-items: center;
+                    margin: auto;
+                        display: flex;
+                        gap: 16px;
+}
+#herotext>button{
+width:  167px; height:  47px; padding: 10px, 20px, 10px, 24px ;border-radius: 100px ;border: 2px ;gap: 8px;
+border: 2px solid #FFFFFF;
+ background: linear-gradient(94.62deg, #FECC00 -2.53%, #FEA800 102.53%);
+}
+#hero>div{
+    width: 934px;
+    height: 403px;
+    margin: auto;
+    align-self: center;
+    padding-top: 42px;
+}
+#hero>div>img:nth-child(1) {
+    width: 720px;
+    margin-left: -150px;
+}
+#bitcoin{
+width: 324px;
+ height: 324px;
+  top: -490px;
+   left: 60px;
+    position :relative
+}
+#hero>div>p{
+        font-family: Kanit;
+        font-size: 100px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        color: white;
+}

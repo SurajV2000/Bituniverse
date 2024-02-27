@@ -1,0 +1,44 @@
+#footer{
+    padding: 30px 90px 30px 90px;
+    color:white;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #CFAF06;
+    border-radius: 16px;
+}
+#footer>div:nth-child(1){
+    width: 264px;
+    height: auto;
+}
+#footer>div:nth-child(2) {
+    width: 275px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer>div:nth-child(1)>p {
+    font-family: Kanit;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+
+}
+
+.social{
+    width: 80.21px ;
+    display: flex;
+    height: 80.21px ;
+    padding: 17.19px, 17.19px, 17.19px, 0px;
+     border-radius: 49px;
+      gap: 22.92px;
+    background: linear-gradient(135deg, #9C530F 0%, #CFAF06 99.74%);
+    align-items: center;
+justify-content: center;
+font-size:35px ;
+}
