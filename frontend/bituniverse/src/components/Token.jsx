@@ -23,9 +23,11 @@ const Token = () => {
       </p>
       <div id="container">
         <div className="token">
-          <img  src={bit} alt="bit" />
+          <img src={bit} alt="bit" />
           <div>
-            <div><p>Bitcoin</p></div>
+            <div>
+              <p>Bitcoin</p>
+            </div>
             <div className="data">
               <p>Symbol</p>
               <p>BTC</p>
@@ -48,7 +50,9 @@ const Token = () => {
         <div className="token">
           <img src={bit} alt="bit" />
           <div>
-            <div>Bitcoin</div>
+            <div>
+              <p>Bitcoin</p>
+            </div>
             <div className="data">
               <p>Symbol</p>
               <p>BTC</p>
@@ -71,7 +75,9 @@ const Token = () => {
         <div className="token">
           <img src={bit} alt="bit" />
           <div>
-            <div>Bitcoin</div>
+            <div>
+              <p>Bitcoin</p>
+            </div>
             <div className="data">
               <p>Symbol</p>
               <p>BTC</p>
