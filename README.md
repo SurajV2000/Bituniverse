@@ -1,4 +1,4 @@
-Deployed-Link- https://outfitstore.vercel.app/
+Deployed-Link- https://bituniverse.vercel.app/
 
 Backend Deployed Link - https://backend-bituniverse.onrender.com/token
 
